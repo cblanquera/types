@@ -1,0 +1,33 @@
+{
+  "name": "@blanquera/types",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Type definitions implementations for core types.",
+  "author": "Chris <chris@incept.asia>",
+  "homepage": "https://github.com/cblanquera/types",
+  "bugs": "https://github.com/cblanquera/types/issues",
+  "repository": "cblanquera/types",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "dist"
+  ],
+  "scripts": {
+    "test": "nyc ts-mocha tests/*.test.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chai": "4.3.5",
+    "@types/expect": "24.3.0",
+    "@types/mocha": "10.0.1",
+    "@types/node": "20.11.16",
+    "chai": "4.3.7",
+    "mocha": "10.2.0",
+    "nyc": "15.1.0",
+    "ts-mocha": "10.0.0",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
