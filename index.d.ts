@@ -20,7 +20,7 @@ export {
   EventEmitter,
   Exception,
   Statuses,
-  Hash,
+  HashStore,
   File,
   TaskQueue
 } from './dist/index';
